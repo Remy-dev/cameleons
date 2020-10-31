@@ -1,0 +1,160 @@
+body {
+  font-family: 'Open sans', sans-serif;
+  background-color: #2f3848;
+}
+
+.container {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+header h1 {
+  background-color: #f05768;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  
+}
+
+.nav__navbar {
+  flex: 50%;
+}
+.nav__navbar a {
+  color: greenyellow;
+  margin-right: 2%;
+  font-weight: bold;
+}
+
+.nav__reseaux {
+  align-items: flex-end; 
+}
+
+.nav__reseaux img {
+  width: 25px;
+  height: 25px;
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+
+.photo__cameleon_big {
+  background: url('images/cameleon-big.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.photo h2 {
+  color: #00ccff;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.photo p {
+  color: white;
+  font-weight: bold;
+}
+
+.photo p > a {
+  color: greenyellow;
+  text-decoration: underline;
+}
+
+.legende {
+  color: white;
+  text-transform: uppercase;
+  background-color: #f05768;
+  width: 30%;
+  padding: 0.8%;
+  font-weight: 900; 
+}
+
+.compendium {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.galerie {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 70%;
+  min-width: 70%;
+  height: 100vh;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+
+.galerie__newsletter {
+  max-width: 25%; 
+}
+
+.image1 {
+  border: 5px solid #2f3848;
+  max-width: 50%;
+  min-width: 50%;
+
+  
+}
+
+.groupe1 {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 50%;
+  max-width: 50%;
+  align-items: flex-start;
+}
+.image2G {
+  max-width: 50%;
+  min-width: 50%;
+  border: 5px solid #2f3848;
+}
+
+.image2 {
+  max-width: 25%;
+  border: 5px solid #2f3848;
+  
+}
+
+.galerie__newsletter {
+  background-color: #0044889b;
+  align-self: flex-start;
+  box-sizing: border-box;
+  padding: 2%;
+}
+
+.galerie__newsletter > h3 {
+  color: #00ccff;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1.2;
+
+  border-bottom: 3px solid yellowgreen;
+  padding-bottom: 4%;
+}
+
+.galerie__newsletter p {
+  line-height: 1.2;
+}
+.galerie__newsletter p, .galerie__newsletter a {
+  color: yellowgreen;
+}
+
+footer {
+  text-align: center;
+  color: #00ccff;
+}
+
